@@ -128,7 +128,7 @@ function App() {
       ) : (
         // Display the login page
         <SpotifyAuth
-          redirectUri='http://localhost:5173'
+          redirectUri='https://spotify-react-neon.vercel.app/'
           clientID='cfe6dca828d640e9ae3a74e53817be89'
           scopes={[
             Scopes.userReadPrivate,
