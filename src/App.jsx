@@ -137,7 +137,7 @@ function App() {
             'user-modify-playback-state',
             'streaming' // Add this scope
           ]}
-          onAccessToken={(token) => setToken(token)}
+          onAccessToken={token}
         />
       )}
     </div>
